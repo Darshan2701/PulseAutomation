@@ -61,7 +61,7 @@ let nightmare = Nightmare({
 nightmare
   .goto('https://pulse.lnttechservices.com')
   .type('.login_area input[type="text"]','20073031')
-  .type('.login_area input[type="password"]','newuseR%123')
+  .type('.login_area input[type="password"]','12%123')
   .click('#QTP_LoginButton')
   .wait(1500,'#home #navbar #logout #logtext a')
   .evaluate(function () {
