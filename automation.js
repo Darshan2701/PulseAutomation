@@ -67,7 +67,6 @@ nightmare
   .evaluate(function () {
     return document.querySelector('#home #navbar #logout #logtext a').href;
   })
-  .wait(1500)
   .click('#home #objectnav #Nav_Container #Nav_Content #oSubmenu2 #SubDivID10 #LOCK_Current_Week')
   .evaluate(function(){
     return document.querySelector('#home #objectnav #Nav_Container #Nav_Content #oSubmenu2 #SubDivID10 ').href
